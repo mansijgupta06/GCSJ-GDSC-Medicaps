@@ -5,7 +5,7 @@ import TableIndex from "@/components/Table.Index";
 export default function Home() {
   return (
     <>
-      {/* <Script
+      <Script
         src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"
         strategy="beforeInteractive"
       ></Script>
@@ -39,15 +39,8 @@ export default function Home() {
           })();
           `
         }
-      </Script> */}
+      </Script>
       <nav className="w-full  shadow-md relative ">
-        <div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center">
-          <div className="">
-            <Image src="/assets/cloudLg.png" alt="me" width="40" height="40" />
-          </div>
-          <p className="">Google Cloud STUDY JAMS 23 - 24</p>
-        </div>
-
         <div className="p-3 flex mob:flex-col m-auto max-w-6xl justify-between items-center">
           <div className="logo mob:border-b mob:border-b-gray-200 flex justify-center items-center">
             <div className="img w-16 h-1w-16 rounded-full ">
@@ -59,27 +52,14 @@ export default function Home() {
               />
             </div>
             <div className="text flex flex-col justify-start items-start">
-              <p className="text-base">Google Devloper Student Club</p>
-              <p className="text-xs">Poornima University, Jaipur</p>
+              <p className="text-base">Google Developer Student Club</p>
+              <p className="text-xs">Medi-caps University, Indore</p>
             </div>
           </div>
 
           <div className="links mob:py-3 flex justify-center items-center space-x-5">
-            <Link href="https://chat.whatsapp.com/J1EjBNlkKRd5ONx4eQ57br">
-              <div className="cursor-pointer medium">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="currentColor"
-                  class="bi bi-whatsapp"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />{" "}
-                </svg>
-              </div>
-            </Link>
-            <Link href="https://www.linkedin.com/in/gdsc-poornima-university-34696528a/">
+           
+            <Link href="https://www.linkedin.com/in/gdsc-medi-caps-363739219/">
               <div className="cursor-pointer linkedin">
                 <svg
                   className="w-6"
@@ -93,7 +73,7 @@ export default function Home() {
                 </svg>
               </div>
             </Link>
-            <Link href="https://www.instagram.com/gdsc.poornima">
+            <Link href="https://www.instagram.com/gdscmu">
               <div className="cursor-pointer insta">
                 <svg
                   className="w-6"
@@ -107,7 +87,7 @@ export default function Home() {
                 </svg>
               </div>
             </Link>
-            <Link href="https://twitter.com/gdsc_poornima/">
+            <Link href="https://twitter.com/mugdsc">
               <div className="cursor-pointer twitter">
                 <svg
                   className="w-6"
@@ -132,10 +112,10 @@ export default function Home() {
       <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">
         Devloped By{" "}
         <a
-          href="https://avayyyyyyy.github.io/shubhlovesweb3/"
+          href="https://www.linkedin.com/in/mansij-gupta/"
           className="text-orange-400"
         >
-          Shubhankit Jain
+          Mansij Gupta
         </a>
       </div>
     </>

@@ -10,31 +10,7 @@ function TableRow({ participant }) {
       </td>
 
 
-      <td className="Redemption_Status p-3 relative">
-        <div
-          className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${
-            participant["Redemption Status"] == "Yes"
-              ? "bg-green-200 text-green-600"
-              : "bg-yellow-200 text-yellow-600"
-          }`}
-        >
-          {participant["Redemption Status"] == "Yes" ? "Done" : "Not!"}
-        </div>
-      </td>
-
-      <td className="Institution mob:hidden relative p-3">
-        <div
-          className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${
-            participant["Institution"] == "Poornima University - Jaipur"
-              ? "bg-green-200 text-green-600"
-              : "bg-yellow-200 text-yellow-600"
-          }`}
-        >
-          {participant["Institution"] == "Poornima University - Jaipur"
-            ? "PU"
-            : "Other"}
-        </div>
-      </td>
+     
 
       <td className="Completions_both_Pathways_relative p-3 text-center">
         <div
